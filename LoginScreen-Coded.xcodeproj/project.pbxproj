@@ -1,0 +1,568 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 77;
+	objects = {
+
+/* Begin PBXContainerItemProxy section */
+		D78B12C92DC15D9300AEC7A9 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D78B12AA2DC15D9200AEC7A9 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D78B12B12DC15D9200AEC7A9;
+			remoteInfo = "LoginScreen-Coded";
+		};
+		D78B12D32DC15D9300AEC7A9 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D78B12AA2DC15D9200AEC7A9 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D78B12B12DC15D9200AEC7A9;
+			remoteInfo = "LoginScreen-Coded";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		D78B12B22DC15D9200AEC7A9 /* LoginScreen-Coded.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "LoginScreen-Coded.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		D78B12C82DC15D9300AEC7A9 /* LoginScreen-CodedTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "LoginScreen-CodedTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		D78B12D22DC15D9300AEC7A9 /* LoginScreen-CodedUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "LoginScreen-CodedUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFileSystemSynchronizedBuildFileExceptionSet section */
+		D78B12DA2DC15D9300AEC7A9 /* Exceptions for "LoginScreen-Coded" folder in "LoginScreen-Coded" target */ = {
+			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
+			membershipExceptions = (
+				Info.plist,
+			);
+			target = D78B12B12DC15D9200AEC7A9 /* LoginScreen-Coded */;
+		};
+/* End PBXFileSystemSynchronizedBuildFileExceptionSet section */
+
+/* Begin PBXFileSystemSynchronizedRootGroup section */
+		D78B12B42DC15D9200AEC7A9 /* LoginScreen-Coded */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			exceptions = (
+				D78B12DA2DC15D9300AEC7A9 /* Exceptions for "LoginScreen-Coded" folder in "LoginScreen-Coded" target */,
+			);
+			path = "LoginScreen-Coded";
+			sourceTree = "<group>";
+		};
+		D78B12CB2DC15D9300AEC7A9 /* LoginScreen-CodedTests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = "LoginScreen-CodedTests";
+			sourceTree = "<group>";
+		};
+		D78B12D52DC15D9300AEC7A9 /* LoginScreen-CodedUITests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = "LoginScreen-CodedUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXFileSystemSynchronizedRootGroup section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		D78B12AF2DC15D9200AEC7A9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D78B12C52DC15D9300AEC7A9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D78B12CF2DC15D9300AEC7A9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		D78B12A92DC15D9200AEC7A9 = {
+			isa = PBXGroup;
+			children = (
+				D78B12B42DC15D9200AEC7A9 /* LoginScreen-Coded */,
+				D78B12CB2DC15D9300AEC7A9 /* LoginScreen-CodedTests */,
+				D78B12D52DC15D9300AEC7A9 /* LoginScreen-CodedUITests */,
+				D78B12B32DC15D9200AEC7A9 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		D78B12B32DC15D9200AEC7A9 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				D78B12B22DC15D9200AEC7A9 /* LoginScreen-Coded.app */,
+				D78B12C82DC15D9300AEC7A9 /* LoginScreen-CodedTests.xctest */,
+				D78B12D22DC15D9300AEC7A9 /* LoginScreen-CodedUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		D78B12B12DC15D9200AEC7A9 /* LoginScreen-Coded */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D78B12DB2DC15D9300AEC7A9 /* Build configuration list for PBXNativeTarget "LoginScreen-Coded" */;
+			buildPhases = (
+				D78B12AE2DC15D9200AEC7A9 /* Sources */,
+				D78B12AF2DC15D9200AEC7A9 /* Frameworks */,
+				D78B12B02DC15D9200AEC7A9 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			fileSystemSynchronizedGroups = (
+				D78B12B42DC15D9200AEC7A9 /* LoginScreen-Coded */,
+			);
+			name = "LoginScreen-Coded";
+			packageProductDependencies = (
+			);
+			productName = "LoginScreen-Coded";
+			productReference = D78B12B22DC15D9200AEC7A9 /* LoginScreen-Coded.app */;
+			productType = "com.apple.product-type.application";
+		};
+		D78B12C72DC15D9300AEC7A9 /* LoginScreen-CodedTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D78B12E02DC15D9300AEC7A9 /* Build configuration list for PBXNativeTarget "LoginScreen-CodedTests" */;
+			buildPhases = (
+				D78B12C42DC15D9300AEC7A9 /* Sources */,
+				D78B12C52DC15D9300AEC7A9 /* Frameworks */,
+				D78B12C62DC15D9300AEC7A9 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D78B12CA2DC15D9300AEC7A9 /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				D78B12CB2DC15D9300AEC7A9 /* LoginScreen-CodedTests */,
+			);
+			name = "LoginScreen-CodedTests";
+			packageProductDependencies = (
+			);
+			productName = "LoginScreen-CodedTests";
+			productReference = D78B12C82DC15D9300AEC7A9 /* LoginScreen-CodedTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		D78B12D12DC15D9300AEC7A9 /* LoginScreen-CodedUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D78B12E32DC15D9300AEC7A9 /* Build configuration list for PBXNativeTarget "LoginScreen-CodedUITests" */;
+			buildPhases = (
+				D78B12CE2DC15D9300AEC7A9 /* Sources */,
+				D78B12CF2DC15D9300AEC7A9 /* Frameworks */,
+				D78B12D02DC15D9300AEC7A9 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D78B12D42DC15D9300AEC7A9 /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				D78B12D52DC15D9300AEC7A9 /* LoginScreen-CodedUITests */,
+			);
+			name = "LoginScreen-CodedUITests";
+			packageProductDependencies = (
+			);
+			productName = "LoginScreen-CodedUITests";
+			productReference = D78B12D22DC15D9300AEC7A9 /* LoginScreen-CodedUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D78B12AA2DC15D9200AEC7A9 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1630;
+				LastUpgradeCheck = 1630;
+				TargetAttributes = {
+					D78B12B12DC15D9200AEC7A9 = {
+						CreatedOnToolsVersion = 16.3;
+					};
+					D78B12C72DC15D9300AEC7A9 = {
+						CreatedOnToolsVersion = 16.3;
+						TestTargetID = D78B12B12DC15D9200AEC7A9;
+					};
+					D78B12D12DC15D9300AEC7A9 = {
+						CreatedOnToolsVersion = 16.3;
+						TestTargetID = D78B12B12DC15D9200AEC7A9;
+					};
+				};
+			};
+			buildConfigurationList = D78B12AD2DC15D9200AEC7A9 /* Build configuration list for PBXProject "LoginScreen-Coded" */;
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = D78B12A92DC15D9200AEC7A9;
+			minimizedProjectReferenceProxies = 1;
+			preferredProjectObjectVersion = 77;
+			productRefGroup = D78B12B32DC15D9200AEC7A9 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				D78B12B12DC15D9200AEC7A9 /* LoginScreen-Coded */,
+				D78B12C72DC15D9300AEC7A9 /* LoginScreen-CodedTests */,
+				D78B12D12DC15D9300AEC7A9 /* LoginScreen-CodedUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		D78B12B02DC15D9200AEC7A9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D78B12C62DC15D9300AEC7A9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D78B12D02DC15D9300AEC7A9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		D78B12AE2DC15D9200AEC7A9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D78B12C42DC15D9300AEC7A9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D78B12CE2DC15D9300AEC7A9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		D78B12CA2DC15D9300AEC7A9 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D78B12B12DC15D9200AEC7A9 /* LoginScreen-Coded */;
+			targetProxy = D78B12C92DC15D9300AEC7A9 /* PBXContainerItemProxy */;
+		};
+		D78B12D42DC15D9300AEC7A9 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D78B12B12DC15D9200AEC7A9 /* LoginScreen-Coded */;
+			targetProxy = D78B12D32DC15D9300AEC7A9 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		D78B12DC2DC15D9300AEC7A9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "LoginScreen-Coded/Info.plist";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "Leonel.LoginScreen-Coded";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		D78B12DD2DC15D9300AEC7A9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "LoginScreen-Coded/Info.plist";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "Leonel.LoginScreen-Coded";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		D78B12DE2DC15D9300AEC7A9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.4;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		D78B12DF2DC15D9300AEC7A9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.4;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		D78B12E12DC15D9300AEC7A9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.4;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "Leonel.LoginScreen-CodedTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/LoginScreen-Coded.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/LoginScreen-Coded";
+			};
+			name = Debug;
+		};
+		D78B12E22DC15D9300AEC7A9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.4;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "Leonel.LoginScreen-CodedTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/LoginScreen-Coded.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/LoginScreen-Coded";
+			};
+			name = Release;
+		};
+		D78B12E42DC15D9300AEC7A9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "Leonel.LoginScreen-CodedUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "LoginScreen-Coded";
+			};
+			name = Debug;
+		};
+		D78B12E52DC15D9300AEC7A9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "Leonel.LoginScreen-CodedUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "LoginScreen-Coded";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		D78B12AD2DC15D9200AEC7A9 /* Build configuration list for PBXProject "LoginScreen-Coded" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D78B12DE2DC15D9300AEC7A9 /* Debug */,
+				D78B12DF2DC15D9300AEC7A9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D78B12DB2DC15D9300AEC7A9 /* Build configuration list for PBXNativeTarget "LoginScreen-Coded" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D78B12DC2DC15D9300AEC7A9 /* Debug */,
+				D78B12DD2DC15D9300AEC7A9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D78B12E02DC15D9300AEC7A9 /* Build configuration list for PBXNativeTarget "LoginScreen-CodedTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D78B12E12DC15D9300AEC7A9 /* Debug */,
+				D78B12E22DC15D9300AEC7A9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D78B12E32DC15D9300AEC7A9 /* Build configuration list for PBXNativeTarget "LoginScreen-CodedUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D78B12E42DC15D9300AEC7A9 /* Debug */,
+				D78B12E52DC15D9300AEC7A9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D78B12AA2DC15D9200AEC7A9 /* Project object */;
+}
