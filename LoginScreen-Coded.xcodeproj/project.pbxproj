@@ -37,6 +37,30 @@
 			);
 			target = D78B12B12DC15D9200AEC7A9 /* LoginScreen-Coded */;
 		};
+		D7F4362C2DCA9A4D00451CEB /* Exceptions for "Arquivodeteste" folder in "LoginScreen-Coded" target */ = {
+			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
+			membershipExceptions = (
+				"LoginScreen-CodedTests/LoginScreen_CodedTests.swift",
+				"LoginScreen-CodedUITests/LoginScreen_CodedUITests.swift",
+				"LoginScreen-CodedUITests/LoginScreen_CodedUITestsLaunchTests.swift",
+			);
+			target = D78B12B12DC15D9200AEC7A9 /* LoginScreen-Coded */;
+		};
+		D7F4362D2DCA9A4D00451CEB /* Exceptions for "Arquivodeteste" folder in "LoginScreen-CodedTests" target */ = {
+			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
+			membershipExceptions = (
+				"LoginScreen-CodedTests/LoginScreen_CodedTests.swift",
+			);
+			target = D78B12C72DC15D9300AEC7A9 /* LoginScreen-CodedTests */;
+		};
+		D7F436332DCA9A4F00451CEB /* Exceptions for "Arquivodeteste" folder in "LoginScreen-CodedUITests" target */ = {
+			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
+			membershipExceptions = (
+				"LoginScreen-CodedUITests/LoginScreen_CodedUITests.swift",
+				"LoginScreen-CodedUITests/LoginScreen_CodedUITestsLaunchTests.swift",
+			);
+			target = D78B12D12DC15D9300AEC7A9 /* LoginScreen-CodedUITests */;
+		};
 /* End PBXFileSystemSynchronizedBuildFileExceptionSet section */
 
 /* Begin PBXFileSystemSynchronizedRootGroup section */
@@ -48,14 +72,14 @@
 			path = "LoginScreen-Coded";
 			sourceTree = "<group>";
 		};
-		D78B12CB2DC15D9300AEC7A9 /* LoginScreen-CodedTests */ = {
+		D7F436282DCA9A4300451CEB /* Arquivodeteste */ = {
 			isa = PBXFileSystemSynchronizedRootGroup;
-			path = "LoginScreen-CodedTests";
-			sourceTree = "<group>";
-		};
-		D78B12D52DC15D9300AEC7A9 /* LoginScreen-CodedUITests */ = {
-			isa = PBXFileSystemSynchronizedRootGroup;
-			path = "LoginScreen-CodedUITests";
+			exceptions = (
+				D7F4362C2DCA9A4D00451CEB /* Exceptions for "Arquivodeteste" folder in "LoginScreen-Coded" target */,
+				D7F4362D2DCA9A4D00451CEB /* Exceptions for "Arquivodeteste" folder in "LoginScreen-CodedTests" target */,
+				D7F436332DCA9A4F00451CEB /* Exceptions for "Arquivodeteste" folder in "LoginScreen-CodedUITests" target */,
+			);
+			path = Arquivodeteste;
 			sourceTree = "<group>";
 		};
 /* End PBXFileSystemSynchronizedRootGroup section */
@@ -89,9 +113,8 @@
 			isa = PBXGroup;
 			children = (
 				D78B12B42DC15D9200AEC7A9 /* LoginScreen-Coded */,
-				D78B12CB2DC15D9300AEC7A9 /* LoginScreen-CodedTests */,
-				D78B12D52DC15D9300AEC7A9 /* LoginScreen-CodedUITests */,
 				D78B12B32DC15D9200AEC7A9 /* Products */,
+				D7F436282DCA9A4300451CEB /* Arquivodeteste */,
 			);
 			sourceTree = "<group>";
 		};
@@ -122,6 +145,7 @@
 			);
 			fileSystemSynchronizedGroups = (
 				D78B12B42DC15D9200AEC7A9 /* LoginScreen-Coded */,
+				D7F436282DCA9A4300451CEB /* Arquivodeteste */,
 			);
 			name = "LoginScreen-Coded";
 			packageProductDependencies = (
@@ -143,9 +167,6 @@
 			dependencies = (
 				D78B12CA2DC15D9300AEC7A9 /* PBXTargetDependency */,
 			);
-			fileSystemSynchronizedGroups = (
-				D78B12CB2DC15D9300AEC7A9 /* LoginScreen-CodedTests */,
-			);
 			name = "LoginScreen-CodedTests";
 			packageProductDependencies = (
 			);
@@ -165,9 +186,6 @@
 			);
 			dependencies = (
 				D78B12D42DC15D9300AEC7A9 /* PBXTargetDependency */,
-			);
-			fileSystemSynchronizedGroups = (
-				D78B12D52DC15D9300AEC7A9 /* LoginScreen-CodedUITests */,
 			);
 			name = "LoginScreen-CodedUITests";
 			packageProductDependencies = (
@@ -291,9 +309,10 @@
 				CURRENT_PROJECT_VERSION = 1;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = "LoginScreen-Coded/Info.plist";
+				INFOPLIST_KEY_LSApplicationCategoryType = "";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UIStatusBarStyle = "";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -318,9 +337,10 @@
 				CURRENT_PROJECT_VERSION = 1;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = "LoginScreen-Coded/Info.plist";
+				INFOPLIST_KEY_LSApplicationCategoryType = "";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UIStatusBarStyle = "";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
